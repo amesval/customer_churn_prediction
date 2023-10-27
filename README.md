@@ -79,7 +79,7 @@ root/
 
 1. Create a conda environment:
 ```
-conda create --name <ENV_NAME> python==3.6
+conda create --name <ENV_NAME> python=3.6
 ```
 2. Change to conda environment:
 ```
