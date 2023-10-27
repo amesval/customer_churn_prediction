@@ -390,8 +390,8 @@ def train_models(x_train, x_test, y_train, y_test, output_path):
         False)
     feature_importance_plot(cv_rfc.best_estimator_, x_test, report_path, True)
 
-    models = [(cv_rfc.best_estimator_, 'Random Forest'),
-              (lrc, 'Logistic Regression')]
+    models = [(cv_rfc.best_estimator_, 'Random_Forest'),
+              (lrc, 'Logistic_Regression')]
     for model, name in models:
         train_results = model_report(x_train, y_train, model)
         test_results = model_report(x_test, y_test, model)
