@@ -164,8 +164,8 @@ def test_train_models(train_models_function):
         files = [
             'shap.png',
             'feat_importance.png',
-            'random_forest_report.png',
-            'log_reg_report.png',
+            'Random_Forest_report.png',
+            'Logistic_Regression_report.png',
             'ROC_curve.png']
         for file in files:
             file = results_dir.joinpath(file)
