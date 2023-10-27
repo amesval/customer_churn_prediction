@@ -12,7 +12,7 @@ The next table provides a description of the customer variables:
 | Feature | Description |
 | ------- | ----------- |
 | CLIENTNUM | Unique identifier for the customer holding the account |
-| Attrition_Flag | If the account is closed then 1 else 0 |
+| Attrition_Flag | If the account is closed then Attrited Customer else Existing Customer |
 | Customer_Age | Customer's Age in Years |
 | Gender | M=Male, F=Female |
 | Dependent_count | Number of dependents |
@@ -32,6 +32,8 @@ The next table provides a description of the customer variables:
 | Total_Trans_Ct | Total transaction count (Last 12 months) |
 | Total_Ct_Chng_Q4_Q1 | Change in transaction count (Q4 over Q1) |
 | Avg_Utilization_Ratio | Average card utilization ratio |
+
+Note: variable description were taken from https://ceur-ws.org/Vol-3026/paper17.pdf.
 
 The Attrition_Flag tell us if a customer churns or not. In other words, this is the response variable to predict.
 
