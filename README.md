@@ -2,7 +2,7 @@
 
 - Customer Churn prediction is an important factor for business success, and is the focus of this project. The current library covers different steps to succeed on this task, including: pre-process data, training a ML model, predict labels for unknown data, evaluation, and model interpretability.
 
-- This project is part of the ML DevOps Engineer Nanodegree Udacity. 
+- This project is part of the ML DevOps Engineer Nanodegree (Udacity).
 
 ## Project Description
 In this work it is used a credit card customer dataset from Kaggle (https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers). The dataset consist of 10000 customers with a set of 21 demographic features, such as age, salary, marital_status, gender, credit limit, etc. This dataset is highly imbalanced, with only 16% of customer churn.
